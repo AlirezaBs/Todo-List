@@ -1,0 +1,44 @@
+.TodoList-header {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 6rem;
+	background-color: #ECECEC;
+	border-bottom: 2px solid #B5B5B5;
+	padding: .5rem 2rem;
+}
+
+.header h1 {
+	color: #00A2DE;
+}
+
+.header p {
+	color: #666666;
+	font-size: 1em;
+}
+
+.body {
+	padding-top: 25px;
+	padding-bottom: 20px;
+	position: relative;
+	min-height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+	.TodoList-header {
+		width: 95%;
+	}
+	.header {
+		padding: .5rem .5rem;
+	}
+}
